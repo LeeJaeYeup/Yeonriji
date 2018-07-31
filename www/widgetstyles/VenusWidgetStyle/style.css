@@ -1,0 +1,11 @@
+@import url('//fonts.googleapis.com/css?family=Open+Sans');
+.vnbox {margin-bottom:8px; box-sizing:border-box; float:left; background:transparent; overflow:hidden}
+.td_wrap {background:#fff; width:96%; height:98%; margin:0 auto; box-sizing:border-box; border-radius:2px; border-top:4px solid #f8f8f8; border-bottom:4px solid #f9f9f9}
+.td_header {height:20px; margin-bottom:5px; padding:7px 10px 0 10px}
+.td_header > span {color:#888; font-family:'Open Sans'; text-transform: uppercase; font-weight:bold; font-size: 11px; line-height:14px}
+.td_header > a {float:right}
+.td_body {margin:0}
+
+@media screen and (max-width: 566px) {.vnbox {width:100% !important}}  
+@media screen and (min-width:568px) {.vnbox {width:50% !important}}
+@media screen and (min-width: 1024px) {.vnbox {width:32.6% !important}}

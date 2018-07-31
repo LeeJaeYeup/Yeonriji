@@ -1,0 +1,175 @@
+{\rtf1\ansi\ansicpg949\cocoartf1504\cocoasubrtf810
+{\fonttbl\f0\fnil\fcharset129 AppleSDGothicNeo-Regular;\f1\fnil\fcharset129 Gulim;\f2\fnil\fcharset129 NanumGothic;
+\f3\froman\fcharset0 Times-Roman;\f4\fnil\fcharset129 AppleMyungjo;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red255\green255\blue255;\red0\green0\blue233;
+\red51\green51\blue51;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\cssrgb\c100000\c100000\c100000;\cssrgb\c0\c0\c93333;
+\cssrgb\c26275\c26275\c26275;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww14400\viewh8700\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \'c0\'c7\'b7\'c9\'b1\'ba\
+- \'bc\'d2\'bd\'ba \'c3\'eb\'c7\'d5 (\'b1\'c7\'b9\'ce\'bc\'f6)\
+- \'b1\'b8\'b1\'db \'b8\'ca API KEY \'b0\'aa \'ba\'af\'b0\'e6 (\'c0\'c7\'b7\'c9)\
+- \'c3\'df\'b0\'a1 \'bc\'f6\'c1\'a4 \'bf\'e4\'c3\'bb\'bb\'e7\'c7\'d7\
+- \'b1\'e6\'c3\'a3\'b1\'e2 \'b5\'a5\'c0\'cc\'c5\'cd \'bc\'f6\'c1\'a4 (\'bd\'c3\'c0\'e5 \'c6\'f7\'c0\'ce\'c6\'ae)\
+- \'b1\'e6\'c3\'a3\'b1\'e2 \'b1\'e2\'b4\'c9 \'ba\'b8\'bf\'cf \
+- \'c3\'d6\'c3\'ca \'b5\'a5\'c0\'cc\'c5\'cd DB\'c0\'fa\'c0\'e5 \'b9\'d7 \'b9\'f6\'c0\'fc \'b0\'fc\'b8\'ae\
+\
+\
+\
+\'b1\'ba\'c3\'bb\'bb\'e7 \'b1\'e6\'c3\'a3\'b1\'e2 \'ba\'f1\'c4\'dc\
+- \'b1\'ba\'c3\'bb\'bb\'e7 \'c0\'d4\'b1\'b8 \'ba\'f1\'c4\'dc \'c0\'a7\'c4\'a1 \'ba\'af\'b0\'e6 (\'bc\'b3\'c4\'a1\'b9\'f8\'c8\'a3 : 211)\
+- \'b1\'ba\'c3\'bb\'bb\'e7 1\'c3\'fe \'c1\'c2\'c3\'f8 \'b0\'e8\'b4\'dc RFC\'b5\'ee\'b7\'cf \'be\'c8\'b5\'ca , \'c8\'ae\'c0\'ce (\'bc\'b3\'c4\'a1\'b9\'f8\'c8\'a3 : 192)\
+ \
+\
+A : \
+ 3.857\
+ 2317\
+\
+I :\
+ 0 \
+ 298\
+\
+\
+\
+\pard\pardeftab720\sl380\partightenfactor0
+
+\f1\fs26\fsmilli13333 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\'a4\'b7 \'b1\'e2\'c8\'b9\'b0\'a8\'bb\'e7\'bd\'c7 : {\field{\*\fldinst{HYPERLINK "http://www.uiryeong.go.kr/m/index.uiryeong?menuCd=DOM_000000401003001001"}}{\fldrslt \cf4 \ul \ulc4 http://www.uiryeong.go.kr/m/index.uiryeong?menuCd=DOM_000000301003001001}}\
+\'a4\'b7 \'c1\'d6\'b9\'ce\'bb\'fd\'c8\'b0\'c1\'f6\'bf\'f8\'bd\'c7 :{\field{\*\fldinst{HYPERLINK "http://www.uiryeong.go.kr/m/index.uiryeong?menuCd=DOM_000000401003002001"}}{\fldrslt \cf4 \ul \ulc4 http://www.uiryeong.go.kr/m/index.uiryeong?menuCd=DOM_000000301003002001}}\
+\'a4\'b7 \'c7\'e0\'c1\'a4\'b0\'fa : {\field{\*\fldinst{HYPERLINK "http://www.uiryeong.go.kr/m/index.uiryeong?menuCd=DOM_000000401003003001"}}{\fldrslt \cf4 \ul \ulc4 http://www.uiryeong.go.kr/m/index.uiryeong?menuCd=DOM_000000301003003001}}\
+\'a4\'b7 \'c0\'e7\'b9\'ab\'b0\'fa :{\field{\*\fldinst{HYPERLINK "http://www.uiryeong.go.kr/m/index.uiryeong?menuCd=DOM_000000401003004001"}}{\fldrslt \cf4 \ul \ulc4 http://www.uiryeong.go.kr/m/index.uiryeong?menuCd=DOM_000000301003004001}}\
+\'a4\'b7 \'c0\'c7\'ba\'b4\'b9\'ae\'c8\'ad\'b0\'fc\'b1\'a4\'b0\'fa :{\field{\*\fldinst{HYPERLINK "http://www.uiryeong.go.kr/m/index.uiryeong?menuCd=DOM_000000401003005001"}}{\fldrslt \cf4 \ul \ulc4 http://www.uiryeong.go.kr/m/index.uiryeong?menuCd=DOM_000000301003005001}}\
+\'a4\'b7 \'b9\'ce\'bf\'f8\'ba\'c0\'bb\'e7\'b0\'fa :{\field{\*\fldinst{HYPERLINK "http://www.uiryeong.go.kr/m/index.uiryeong?menuCd=DOM_000000401003006001"}}{\fldrslt \cf4 \ul \ulc4 http://www.uiryeong.go.kr/m/index.uiryeong?menuCd=DOM_000000301003006001}}\
+\'a4\'b7 \'b0\'e6\'c1\'a6\'b1\'b3\'c5\'eb\'b0\'fa :{\field{\*\fldinst{HYPERLINK "http://www.uiryeong.go.kr/m/index.uiryeong?menuCd=DOM_000000401003007001"}}{\fldrslt \cf4 \ul \ulc4 http://www.uiryeong.go.kr/m/index.uiryeong?menuCd=DOM_000000301003007001}}\
+\'a4\'b7 \'c8\'af\'b0\'e6\'c0\'a7\'bb\'fd\'b0\'fa :{\field{\*\fldinst{HYPERLINK "http://www.uiryeong.go.kr/m/index.uiryeong?menuCd=DOM_000000401003008001"}}{\fldrslt \cf4 \ul \ulc4 http://www.uiryeong.go.kr/m/index.uiryeong?menuCd=DOM_000000301003008001}}\
+\'a4\'b7 \'bb\'ea\'b8\'b2\'b3\'ec\'c1\'f6\'b0\'fa :{\field{\*\fldinst{HYPERLINK "http://www.uiryeong.go.kr/m/index.uiryeong?menuCd=DOM_000000301003009001"}}{\fldrslt \cf4 \ul \ulc4 http://www.uiryeong.go.kr/m/index.uiryeong?menuCd=DOM_000000301003009001}}\
+\'a4\'b7 \'b0\'c7\'bc\'b3\'b5\'b5\'bd\'c3\'b0\'fa :{\field{\*\fldinst{HYPERLINK "http://www.uiryeong.go.kr/m/index.uiryeong?menuCd=DOM_000000301003010001"}}{\fldrslt \cf4 \ul \ulc4 http://www.uiryeong.go.kr/m/index.uiryeong?menuCd=DOM_000000301003010001}}\
+\'a4\'b7 \'be\'c8\'c0\'fc\'b0\'fc\'b8\'ae\'b0\'fa :{\field{\*\fldinst{HYPERLINK "http://www.uiryeong.go.kr/m/index.uiryeong?menuCd=DOM_000000301003011001"}}{\fldrslt \cf4 \ul \ulc4 http://www.uiryeong.go.kr/m/index.uiryeong?menuCd=DOM_000000301003011001}}\
+\
+\'a4\'b7 \'b5\'b5\'bd\'c3\'b0\'b3\'b9\'df\'bb\'e7\'be\'f7\'b0\'fa :{\field{\*\fldinst{HYPERLINK "http://www.uiryeong.go.kr/m/index.uiryeong?menuCd=DOM_000000301003012001"}}{\fldrslt \cf4 \ul \ulc4 http://www.uiryeong.go.kr/m/index.uiryeong?menuCd=DOM_000000301003012001}}\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \cb1 \kerning1\expnd0\expndtw0 \
+\
+\
+\'b0\'e6\'bb\'f3\'b3\'b2\'b5\'b5 \'c0\'c7\'b7\'c9\'b1\'ba \'c0\'c7\'b7\'c9\'c0\'be \'c3\'e6\'c0\'cd\'b7\'ce 63\
+\
+055-570-2114\
+\
+\
+\
+\
+\
+http://www.uiryeong.go.kr/tour/board/view.uiryeong?boardId=SkoBee&menuCd=DOM_000000502010000000&startPage=1&dataSid=
+\f2 \cf5 \cb3 \expnd0\expndtw0\kerning0
+492092
+\f0 \cf0 \cb1 \kerning1\expnd0\expndtw0 \
+\
+\
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+
+\f3 \cf2 \expnd0\expndtw0\kerning0
+<
+\f4 \'bf\'e4\'b1\'dd\'c7\'a5
+\f3 >\'a0\
+
+\f4 \'c0\'cf\'b9\'dd\'bd\'c7
+\f3  : 
+\f4 \'c6\'f2\'c0\'cf
+\f3  - 30,000
+\f4 \'bf\'f8
+\f3  , 
+\f4 \'c1\'d6\'b8\'bb
+\f3 /
+\f4 \'b0\'f8\'c8\'de\'c0\'cf
+\f3  - 30,000
+\f4 \'bf\'f8
+\f3 \
+
+\f4 \'b4\'eb\'bd\'c7
+\f3 (2
+\f4 \'bd\'c3\'b0\'a3
+\f3 ) : 20,000
+\f4 \'bf\'f8
+\f3 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0 \cf0 \kerning1\expnd0\expndtw0 \
+\
+\
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+
+\f3 \cf2 \expnd0\expndtw0\kerning0
+<
+\f4 \'bf\'e4\'b1\'dd\'c7\'a5
+\f3 >\'a0\
+
+\f4 \'bc\'f7\'b9\'da\'bf\'e4\'b1\'dd
+\f3  : 30,000
+\f4 \'bf\'f8
+\f3 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0 \cf0 \kerning1\expnd0\expndtw0 \
+\
+\
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+
+\f3 \cf2 \expnd0\expndtw0\kerning0
+<
+\f4 \'bf\'e4\'b1\'dd\'c7\'a5
+\f3 >\'a0\
+
+\f4 \'c0\'cf\'b9\'dd\'bd\'c7
+\f3  : 30,000
+\f4 \'bf\'f8
+\f3 \
+
+\f4 \'b4\'eb\'bd\'c7
+\f3 (2
+\f4 \'bd\'c3\'b0\'a3
+\f3 ) : 20,000
+\f4 \'bf\'f8\
+\
+\
+
+\f3 <
+\f4 \'bf\'e4\'b1\'dd\'c7\'a5
+\f3 >\'a0\
+
+\f4 \'c0\'cf\'b9\'dd\'bd\'c7
+\f3  :\'a0
+\f4 \'bc\'f7\'b9\'da
+\f3  40,000
+\f4 \'bf\'f8
+\f3  , 
+\f4 \'b4\'eb\'bd\'c7
+\f3 \'a020,000
+\f4 \'bf\'f8
+\f3 \
+
+\f4 \'c6\'af\'bd\'c7
+\f3  :\'a0
+\f4 \'bc\'f7\'b9\'da
+\f3  50,000
+\f4 \'bf\'f8
+\f3  , 
+\f4 \'b4\'eb\'bd\'c7
+\f3 \'a020,000
+\f4 \'bf\'f8
+\f3 \
+VIP
+\f4 \'bd\'c7
+\f3 \'a0:\'a0
+\f4 \'bc\'f7\'b9\'da
+\f3  60,000
+\f4 \'bf\'f8
+\f3  , 
+\f4 \'b4\'eb\'bd\'c7
+\f3 \'a030,000
+\f4 \'bf\'f8
+\f3 \
+\
+}

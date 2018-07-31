@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widgetstyle>
+    <title xml:lang="ko">Venus Widget Style</title>
+    <description xml:lang="ko">비너스 위젯스타일</description>
+    <version>1.0</version>
+    <date>2015-07-15</date>
+    <preview>prv.png</preview>
+    <author email_address="happybohm@gmail.com" link="http://happybohm.cafe24.com">
+        <name xml:lang="ko">inJin</name>
+    </author>
+    <extra_vars>
+	
+        <var name="ws_title_display" type="select">
+            <title xml:lang="ko">위젯 타이틀 사용여부</title>
+            <description xml:lang="ko">위젯 타이틀을 사용여부를 설정해주세요</description>
+            <options>
+                <name xml:lang="ko">사용</name>
+                <value>Y</value>
+            </options>
+            <options>
+                <name xml:lang="ko">사용안함</name>
+                <value>N</value>
+            </options>
+        </var>
+		
+        <var name="ws_title" type="text">
+            <name xml:lang="ko">제목</name>
+            <description xml:lang="ko">제목 텍스트</description>
+        </var>
+		
+        <var name="ws_more" type="select">
+            <title xml:lang="ko">더보기 사용여부</title>
+            <description xml:lang="ko">더보기 기능의 사용여부를 설정해주세요</description>
+            <options>
+                <name xml:lang="ko">사용</name>
+                <value>Y</value>
+            </options>
+            <options>
+                <name xml:lang="ko">사용안함</name>
+                <value>N</value>
+            </options>
+        </var>
+		
+        <var name="ws_more_url" type="text">
+            <name xml:lang="ko">더보기 URL</name>
+            <description xml:lang="ko">http://을 포함한 URL을 지정해주세요</description>
+        </var>
+    </extra_vars>
+</widgetstyle>

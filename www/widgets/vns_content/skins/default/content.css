@@ -1,0 +1,11 @@
+/* VENUS Content Widget Skin (/widgets/content/skins/VenusContentSkin/) */
+.vs_mc {width:100%; padding:0; list-style:none; box-sizing:border-box}
+.vs_mc > li {text-align:center; padding:10px 0 6px 0; border-bottom:1px solid #fbfbfb}
+.vs_mc > li:hover {background:#f6f6f6}
+.vs_mc > li:last-child {border:0}
+.vs_mc > li > a {outline:none; text-decoration:none; font-size:13px; line-height:17px; padding:0}
+.vs_mc > li > a > span {line-height:17px}
+.vs_tq {text-align:left; display:inline-block; overflow:hidden; color:#777; text-overflow:ellipsis; width:83%; white-space:nowrap}
+.vs_te {width:17%; color:#aaa; vertical-align:top; box-sizing:border-box}
+
+.t_var {box-sizing:border-box; color:#eee; font-size:11px}

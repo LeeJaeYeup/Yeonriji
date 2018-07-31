@@ -1,0 +1,53 @@
+<load target="./css/style.css" type="text/css" />
+<load target="./css/font-awesome.min.css" type="text/css" />
+<load target="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js" type="text/javascript" />
+<load target="./js/script.js" type="text/javascript" />
+	<div class="header_area">
+		<div class="top_gnb">
+			<div class="top_gnb_wrap">
+				<ul>
+					<!--@if($is_logged)-->
+						<li><a href="{getUrl('act','dispMemberInfo')}">{$logged_info->nick_name}</a></li>
+						<li><a href="{getUrl('act','dispMemberLogout')}">{$lang->cmd_logout}</a></li>
+					<!--@else-->
+						<li><a href="{getUrl('act','dispMemberSignUpForm')}">{$lang->cmd_signup}</a></li>
+						<li><a href="{getUrl('act','dispMemberLoginForm')}">{$lang->cmd_login}</a></li>
+					<!--@end-->
+					<!--@if($logged_info->is_admin=="Y")-->
+						<li><a href="{getUrl('','module','admin')}" onclick="window.open(this.href);return false;">{$lang->cmd_management}</a></li>
+					<!--@end-->
+				</ul>
+			</div>
+		</div>
+		<div class="header_wrap">
+			<div class="logo">
+				<a href="{$layout_info->url_logo}">{$layout_info->text_logo} </a>
+			</div>
+			<div class="gnb">
+			</div>
+		</div>
+		<div class="sub_gnb">
+			<div class="sub_gnb_wrap">
+				<ul class="submenu">
+					<li loop="$main_menu->list=>$key1,$val1" class="active"|cond="$val1['selected']">
+						<a href="{$val1['href']}" target="_blank"|cond="$val1['open_window']=='Y'">{$val1['link']}</a>
+						<ul cond="$val1['list']">
+							<li loop="$val1['list']=>$key2,$val2" class="active"|cond="$val2['selected']">
+								<a href="{$val2['href']}" target="_blank"|cond="$val2['open_window']=='Y'">{$val2['link']}</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="content_area">
+		{$content}
+	</div>
+	<div class="footer_area">
+		<div class="copyright_wrap">
+			{$layout_info->copyright}
+		</div>
+	</div>
+ </body>
+</html>

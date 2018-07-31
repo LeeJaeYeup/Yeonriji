@@ -1,0 +1,50 @@
+<!--%import("it_content.css")-->
+<ul class="it_mc">
+<!--@foreach($widget_info->content_items as $key => $item)-->
+	<li>
+	<table width="100%"><tbody>
+	<tr>
+	<td class="it_thb">
+			<a href="{$item->getLink()}">
+			<!--@if($item->getThumbnail())-->
+				<img src="{$item->getThumbnail()}" alt="" />
+			<!--@else-->
+				<img src="img/noimage.png" alt="" />
+			<!--@end-->
+	</td>
+	
+	<td class="it_ct">
+	<table><tbody>
+	<tr><td><div class="itc_a">
+		<a href="{$item->getLink()}">
+			<!--@for($j=0,$c=count($widget_info->option_view_arr);$j<$c;$j++)-->
+				<!--@if($widget_info->option_view_arr[$j]=='title')-->
+					<!--@if(!$__module_info && $widget_info->show_browser_title=='Y' && $item->getBrowserTitle())-->
+						<span style="color:#9dcad5">{$item->getBrowserTitle()}</span><span class="t_var">/</span>
+					<!--@end-->	
+					{$item->getTitle($widget_info->subject_cut_size)}
+				<!--@end-->
+			<!--@end-->
+		</a>		
+	</div></td></tr>
+		
+	<tr><td>
+	<div class="itc_b"><span>Date {$item->getRegdate("y-m-d")}, {$item->getRegdate("H:i")}</span>
+	<span class="t_var">/</span>&nbsp;By {$item->getNickName()}</div></td></tr>
+		
+	<!--@for($j=0,$c=count($widget_info->option_view_arr);$j<$c;$j++)-->
+		<!--@if($widget_info->option_view_arr[$j]=='content')-->
+	<tr><td><div class="itc_c">
+		{$item->getContent()}</div></td></tr>
+		<!--@end-->
+	<!--@end-->
+
+	</tbody>
+	</table>
+	</td>
+	</tr>
+	</tbody>
+	</table>
+	</li>
+<!--@end-->	
+	</ul>

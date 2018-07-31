@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout version="0.2">
+    <title xml:lang="ko">Kenta Layout - First</title>
+    <description xml:lang="ko">Kenta가 배포한 첫번째 레이아웃입니다</description>
+    <version>1.1</version>
+    <date>2014-05-04</date>
+    <author email_address="lansys05@migix.jp" link="http://kenta.migix.jp">
+        <name xml:lang="ko">Kenta</name>
+    </author>
+    <menus>
+        <menu name="main_menu" maxdepth="2" default="true">
+            <title xml:lang="ko">메인 메뉴</title>
+        </menu>
+    </menus>
+	<extra_vars>
+		<var name="type" type="select">
+			<title xml:lang="ko">레이아웃 유형</title>
+			<title xml:lang="en">Layout Type</title>
+			<options value="main">
+				<title xml:lang="ko">메인 레이아웃</title>
+				<title xml:lang="en">Main Layout</title>
+			</options>
+		</var>
+		<var name="url_logo" type="text">
+			<title xml:lang="ko">로고 URL</title>
+		</var>
+		<var name="text_logo" type="text">
+			<title xml:lang="ko">로고 텍스트</title>
+		</var>
+		<var name="copyright" type="textarea">
+			<title xml:lang="ko">카피라이트</title>
+		</var>
+	</extra_vars>
+</layout>

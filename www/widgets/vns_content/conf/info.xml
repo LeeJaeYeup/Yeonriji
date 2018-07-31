@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget version="0.2">
+    <title xml:lang="ko">Venus Content 위젯</title>
+    <version>1.1</version>
+    <date>2015.07.19</date>
+    <author email_address="inJin88@gmail.com" link="http://happybohm.cafe24.com/">
+        <name xml:lang="ko">inJin</name>
+    </author>
+	
+    <extra_vars>
+        <group>
+            <title xml:lang="ko">추출 대상</title>
+            <var id="content_type" type="select">
+                <name xml:lang="ko">추출대상</name>
+
+                <options>
+                    <value>document</value>
+                    <name xml:lang="ko">게시물</name>
+                </options>
+
+                <options>
+                    <value>rss</value>
+                    <name xml:lang="ko">피드 (RSS/ATOM)</name>
+                </options>
+            </var>
+			
+            <var id="module_srls">
+                <type>module_srl_list</type>
+                <name xml:lang="ko">대상 페이지</name>
+                <description xml:lang="ko">선택한 페이지에 등록된 글을 대상으로 합니다.</description>
+            </var>
+			
+            <var id="list_type">
+                <type>select</type>
+                <name xml:lang="ko">내용형태</name>
+                <options>
+                    <value>normal</value>
+                    <name xml:lang="ko">제목</name>
+                </options>
+                <options>
+                    <value>image_title_content</value>
+                    <name xml:lang="ko">이미지+제목+내용</name>
+                </options>
+            </var>
+			
+            <var id="list_count" type="text">
+                <name xml:lang="ko">목록수</name>
+                <description xml:lang="ko">출력될 목록의 수를 정할 수 있습니다. (기본 5개)</description>
+            </var>
+			
+            <var id="content_cut_size" type="text">
+                <name xml:lang="ko">내용 글자수 (기본 100)</name>
+            </var>
+        </group>
+		
+		<group>
+			<title xml:lang="ko">정렬</title>
+            <var id="order_target" type="select">
+                <name xml:lang="ko">정렬 대상</name>
+                <description xml:lang="ko">등록된 순서 또는 변경된 순서로 정렬을 할 수 있습니다.</description>
+				<options>
+                    <value>regdate</value>
+                    <name xml:lang="ko">최신 등록순</name>
+                </options>
+                <options>
+                    <value>update_order</value>
+                    <name xml:lang="ko">최근 변경순</name>
+                </options>
+            </var>
+            <var id="order_type" type="select">
+                <name xml:lang="ko">정렬 방법</name>
+                <description xml:lang="ko">정렬대상을 내림차순 또는 올림차순으로 정렬할 수 있습니다.</description>
+                <options>
+                    <value>desc</value>
+                    <name xml:lang="ko">내림차순</name>
+                </options>
+                <options>
+                    <value>asc</value>
+                    <name xml:lang="ko">올림차순</name>
+                </options>
+            </var>
+        </group>
+		
+        <group>
+            <title xml:lang="ko">목록 상세 설정</title>
+            <var id="option_view" type="select-multi-order">
+                <name xml:lang="ko">표시항목 및 순서</name>
+               
+			   <options default="false" init="true">
+                    <value>title</value>
+                    <name xml:lang="ko">제목</name>
+                </options>
+				
+                <options>
+                    <value>thumbnail</value>
+                    <name xml:lang="ko">섬네일</name>
+                </options>
+				
+                <options init="true">
+                    <value>regdate</value>
+                    <name xml:lang="ko">등록일</name>
+                </options>
+				
+                <options>
+                    <value>content</value>
+                    <name xml:lang="ko">내용</name>
+                </options>
+            </var>
+            <var id="show_browser_title" type="select">
+                <name xml:lang="ko">게시판 이름 표시</name>
+                <options>
+                    <value>Y</value>
+                    <name xml:lang="ko">출력</name>
+                </options>
+                <options>
+                    <value>N</value>
+                    <name xml:lang="ko">출력하지 않음</name>
+                </options>
+            </var>
+        </group>
+		
+        <group>
+			<title xml:lang="ko">썸네일</title>
+            <var id="thumbnail_type" type="select">
+                <name xml:lang="ko">썸네일 생성 방법</name>
+                <description xml:lang="ko">썸네일 생성 방법을 선택할 수 있습니다. (crop : 꽉 채우기, ratio : 비율 맞추기)</description>
+                <options>
+                    <value>crop</value>
+                    <name xml:lang="ko">Crop (채우기)</name>
+                </options>
+                <options>
+                    <value>ratio</value>
+                    <name xml:lang="ko">Ratio (비율 맞추기)</name>
+                </options>
+            </var>
+        </group>
+		
+        <group>
+			<title xml:lang="ko">RSS 설정</title>
+            <var id="rss_url0" type="text">
+                <name xml:lang="ko">피드(RSS/ATOM) 주소</name>
+                <description xml:lang="ko">피드 주소는 타입이 지원하는 문서 형식일 경우에만 등록 됩니다.
+                (지원 문서 형식 : RSS 2.0, RSS 1.0, ATOM 1.0)</description>
+            </var>
+            <var id="rss_url1" type="text">
+                <name xml:lang="ko">피드(RSS/ATOM) 주소</name>
+            </var>
+            <var id="rss_url2" type="text">
+			     <name xml:lang="ko">피드(RSS/ATOM) 주소</name>
+            </var>
+       </group>
+    </extra_vars>
+</widget>

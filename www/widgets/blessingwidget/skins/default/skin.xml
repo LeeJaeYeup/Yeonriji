@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<skin version="0.2">
+    <title xml:lang="ko">blessing_갤러리 위젯</title>
+    <description xml:lang="ko">갤러리 위젯</description>
+    <version>1.7</version>
+    <date>2015-11-27</date>
+
+    <author email_address="" link="">
+        <name xml:lang="ko">blessing</name>
+    </author>
+</skin>
